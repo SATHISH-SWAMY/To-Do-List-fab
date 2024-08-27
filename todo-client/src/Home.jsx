@@ -232,7 +232,7 @@ function Home(props) {
         }}
       >
         <Toolbar />
-        <div className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
+        <div className="flex flex-wrap w-full gap-5 justice-arround">
           {tasks.map((task) => (
             <BasicCard
               key={task._id}
