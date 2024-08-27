@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://to-do-list-fab.onrender.com/'; // Replace with your actual backend URL
+const API_URL = 'https://to-do-list-fab.onrender.com'; // Replace with your actual backend URL
 
 export const getTasks = async () => {
   try {
