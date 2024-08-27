@@ -59,7 +59,7 @@ export default function BasicCard({
   return (
     <Card sx={{ minWidth: 275 }}>
       <CardContent className="bg-[#7C3AED] text-white min-h-[150px]">
-        <Typography sx={{ fontSize: 16 }} gutterBottom>
+        <Typography sx={{ fontSize: 20 }} gutterBottom>
           {task?.title}
         </Typography>
         <Typography variant="body2" className="text-gray-200">
